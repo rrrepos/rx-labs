@@ -6,7 +6,7 @@ fi
 
 export HUGGING_FACE_HUB_TOKEN="$1"
 
-env_file="scripts/docker.env"
+env_file="./docker.env"
 
 echo "HUGGING_FACE_HUB_TOKEN=$1" > $env_file
 
